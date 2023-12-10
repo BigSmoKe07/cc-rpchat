@@ -1,7 +1,7 @@
 local ccChat = exports['cc-chat']
 ESX = nil
 QBCore = nil
-local emoji = import 'emoji'
+local emoji = require 'emoji'
 
 
 Citizen.CreateThread(function()
